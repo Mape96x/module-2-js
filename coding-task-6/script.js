@@ -1,9 +1,9 @@
 function oddNumbers(a, b) {
-  let result;
+  let result = "";
   if (a >= 0 && b >= 0) {
     for (let i = a; i <= b; i++) {
       if (i % 2 != 0) {
-        result = result + ", " + i;
+        result = result + i + ", ";
       } else {
       }
     }
