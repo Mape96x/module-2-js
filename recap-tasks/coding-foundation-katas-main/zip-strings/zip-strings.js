@@ -8,7 +8,7 @@ function zipStrings(strA, strB) {
       newArr.push(arr1[i]);
       newArr.push(arr2[i]);
     }
-  } else if (arr1 < arr2) {
+  } else if (arr1 <= arr2) {
     for (let i = 0; i < strB.length; i++) {
       newArr.push(arr1[i]);
       newArr.push(arr2[i]);
